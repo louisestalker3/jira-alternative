@@ -1,0 +1,44 @@
+{
+  "app_name": "Jira Alternative",
+  "slug": "jira-alternative",
+  "tagline": "The simpler, faster alternative to Jira",
+  "description": "A focused alternative to Jira that fixes the top user complaints. Built for Project Management who need the core functionality without the bloat.",
+  "tech_stack": {
+    "frontend": "React + Vite + TypeScript + Tailwind CSS",
+    "backend": "FastAPI (Python 3.12)",
+    "database": "PostgreSQL",
+    "auth": "Supabase Auth",
+    "payments": "Stripe",
+    "deployment": "Docker + Railway"
+  },
+  "features": [
+    {
+      "name": "Core Workspace",
+      "description": "The main product area \u2014 fast, clean, no bloat.",
+      "priority": "mvp"
+    },
+    {
+      "name": "Onboarding Flow",
+      "description": "Get users to first value in under 5 minutes.",
+      "priority": "mvp"
+    },
+    {
+      "name": "Simple Billing",
+      "description": "Transparent flat-rate pricing via Stripe.",
+      "priority": "mvp"
+    },
+    {
+      "name": "Team Sharing",
+      "description": "Share and collaborate without per-seat fees.",
+      "priority": "v2"
+    },
+    {
+      "name": "Integrations",
+      "description": "Connect to the tools your users already use.",
+      "priority": "v2"
+    }
+  ],
+  "target_audience": "Indie developers and small teams frustrated with Jira's complexity and pricing.",
+  "pricing_model": "Free tier (limited). Pro at $9/month flat. No per-seat fees.",
+  "mvp_summary": "Ship the one thing Jira does poorly, done right. Get 10 paying users before adding anything else."
+}
